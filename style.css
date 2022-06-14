@@ -1,0 +1,60 @@
+#contenedor-inicial {
+	display: flex;
+	justify-content: center;
+}
+#con-1 {
+	background: green;
+	width: 230px;
+	height: 300px;
+	text-align: center;
+	border-radius: 5px;
+	transition: 0.4s;
+}
+#con-2 {
+	width: 230px;
+	height: 300px;
+	text-align: center;
+	border-radius: 5px;
+	transition: 0.4s;
+}
+#con-3 {
+	background: red;
+	width: 230px;
+	height: 300px;
+	text-align: center;
+	border-radius: 5px;
+	transition: 0.4s;
+}
+.separador {
+	margin-right: 30px;
+}
+#con-1 h1{
+	font-family: sans-serif;
+}
+#con-2 h1 {
+	font-family: sans-serif;
+}
+#con-3 h1 {
+	font-family: sans-serif;
+}
+
+/*HOVER*/
+
+#con-1:hover{
+	box-shadow: 2px 2px 50px black;
+	width: 240px;
+	height: 310px;
+	transition: 0.4s;
+}
+#con-2:hover{
+	box-shadow: 2px 2px 50px black;
+	width: 240px;
+	height: 310px;
+	transition: 0.4s;
+}
+#con-3:hover{
+	box-shadow: 2px 2px 50px black;
+	width: 240px;
+	height: 310px;
+	transition: 0.4;
+}
